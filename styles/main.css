@@ -1,0 +1,42 @@
+#container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+#container .labelContainer {
+  display: none;
+  position: absolute;
+  top: 50% !important; 
+  left: 50% !important; 
+  margin: -50px 0px 0px -52.5px; 
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 16pt;
+  line-height: 20px;
+}
+#container .labelContainer a {
+  text-decoration: none;
+  color: #555;
+  font-size: 32pt;
+  line-height: 50px;
+}
+#container .cont {
+  position: absolute;
+  background: transparent;
+}
+#container .progress {
+  position: relative;
+  transform: rotate(239.5deg);
+  background: transparent;
+}
+#container .progress canvas{
+  background: transparent;
+}
+.spin {
+  animation-duration:30s;
+  animation-iteration-count:infinite;
+  animation-direction:normal;
+  -webkit-animation-duration:30s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+}
